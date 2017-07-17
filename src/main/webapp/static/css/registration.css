@@ -1,0 +1,117 @@
+body {
+    background-color: #2A2E37;
+    color: #606468;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    height: 100%;
+    line-height: 1.5;
+    margin: 0;
+    min-height: 100%;
+}
+
+.align {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+
+
+.form-group{
+    color:white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    margin: 1rem;
+    margin-ledt: 3rem;
+    border-radius: 3.25rem;
+}
+
+
+.form-group input[type='text'],
+.form-group input[type='password'] {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    background-color: #3b4148;
+    border-radius: 2.25rem;
+    width:100%;
+    padding-bottom: 1.5rem;
+    padding-left: 2.5rem;
+    padding-top: 1.5rem;
+    padding-right: 7.5rem;
+    margin-right:1rem;
+}
+
+
+*:focus {
+    outline: none;
+}
+
+.btn {
+    position: absolute;
+    top: inherit;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2a2e37; /* Green */
+    border-radius:3.25rem;
+    border: 3px solid#00fede;
+    /* border-style: solid; */
+    color: #00fede;
+    margin:inherit;
+    width: 86%;
+    padding: 1rem;
+    /* padding-bottom: 1rem; */
+    /* padding-left: 1.5rem; */
+    /* padding-top: 1rem; */
+    /* padding-right: 5rem; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background-color: #00fede; /* Green */
+    border-radius:3.25rem;
+    border-color: #00fede;
+    color: white;
+    margin:inherit;
+    width: 90%;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+.form-signin-heading{
+    position:relative;
+    top: 10%;
+    left: 69%;
+    transform: translate(-50%, -100%);
+}
